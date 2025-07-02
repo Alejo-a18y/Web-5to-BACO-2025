@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+     th,   td {
+            border: 2px solid black;
+            width: 30px;
+            height: 20px;
+            text-align: center;
+        }
+        .blue { background-color: blue; }
+        .black { background-color: black; }
+        .dodgerblue{ background-color: dodgerblue;}
+        .purple { background-color: purple; }
+        .green { background-color: green; }
+        .red { background-color: red; }
+        .white { background-color: white; }
+        .yellow { background-color: yellow; }
