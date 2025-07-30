@@ -1,61 +1,3 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #3c83df;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.formulario{
-    background-color: #ffff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0, 0.2);
-    width: 100%;
-    max-width: 400px;
-
-}
-.formulario h2{
-    text-align: center;
-    color: #333333;
-}
-
-.formulario label{
-    display: block;
-    margin-bottom: 5px;
-    color: #333333;
-    font-weight: bold;
-}
-
-.formulario input[type="text"],
-.formulario input[type="email"],
-.formulario textarea,
-.formulario select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.formulario input[type="Submit"]{
-    background-color: #acaf50;
-    color: white;
-    padding: 10px;
-    border: none;
-    width: 100%;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.formulario input[type="submit"]:hover {
-    background-color: #45a049;
-}
-
 *,
 *::before,
 *::after {
@@ -86,11 +28,11 @@ ul {
     padding: 0 20px; 
 }
 
-footer {
+header {
     background: linear-gradient(
         90deg,
-        #204b5e 0%, 
-        #426b65 70%   
+       #015958 0%, 
+       #023535 70%   
     );
     min-height: 80px;
     display: flex;
@@ -191,6 +133,14 @@ footer {
     transform: scale(0.95); 
 }
 
+h1 {
+    text-align: center;
+    margin: 80px auto 40px; 
+    color: #023535; 
+    font-size: 3em; 
+    padding: 0 20px; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); 
+}
 
 @media (max-width: 991px) { 
     header {
